@@ -4,7 +4,9 @@ module OpenWeather
 
     WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?"
     FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast?"
-    APP_ID = "appid=#{Rails.application.credentials.dig(:open_weather, :secret_key)}&"
+    # Typically I would use local credentials to manage secrects, but to speed things up I'm putting it here
+    # APP_ID = "appid=#{Rails.application.credentials.dig(:open_weather, :secret_key)}&"
+    APP_ID = "appid=9e97d2cff965202043151136a03f46a4&"
 
     def query_current
       url = WEATHER_URL+@search_terms+APP_ID+@units
