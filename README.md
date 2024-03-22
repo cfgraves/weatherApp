@@ -2,7 +2,16 @@
 
 Welcome to Its Weather Time! 
 
-This simple app demonstates connecting to a 3rd party api (OpenWeather) to fetch and display weather data based on the zipcode entered.
+This simple app demonstates connecting to a 3rd party api (OpenWeather) to fetch and display weather data based on the zipcode entered. To start the application do the following:
+
+    git clone 'repository link'
+    cd weatherApp
+    bundle install
+    rails db:create
+    rails db:migrate
+    rails s
+
+At this point you can go to localhost:3000 in your browser to access the application
 
 Ruby version, recommended to use RVM for Ruby library management
 
