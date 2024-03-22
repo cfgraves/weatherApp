@@ -1,27 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Its Weather Time! 
 
-Things you may want to cover:
+This simple app demonstates connecting to a 3rd party api (OpenWeather) to fetch and display weather data based on the zipcode entered.
 
 * Ruby version
+
     Ruby version 3.3.0
     Rails version 7.1.3.2
-
-* System dependencies
-
-
-* Configuration
+    For other gems, please refer to the Gemfile
 
 * Database creation
+The database uses sqlite3 as it is the default for this version of Ruby/Rails
+
+    rails db:create
 
 * Database initialization
 
+   rails db:migrate
+
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+The test framework uses rspec. You can run the test suite with the following:
+    rspec
 
-* Deployment instructions
+* Credentials
+    
+This system uses the built-in Ruby/Rails encrypted credentials file. The only key is for OpenWeatherAPI that is managed by my personal account.
 
-* ...
