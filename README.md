@@ -9,6 +9,8 @@ This simple app demonstates connecting to a 3rd party api (OpenWeather) to fetch
     bundle install
     rails db:create
     rails db:migrate
+    rails css:build
+    rails javascript:build
     rails s
 
 At this point you can go to localhost:3000 in your browser to access the application
