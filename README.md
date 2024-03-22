@@ -13,7 +13,7 @@ For other gems, please refer to the Gemfile
 
 Database creation
 
-The database uses sqlite3 as it is the default for this version of Ruby/Rails
+This app uses default database, sqlite3. Make sure to install before attempting to create the database.
 
     rails db:create
 
